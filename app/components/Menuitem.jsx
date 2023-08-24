@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react'; 
+import Link from 'next/link';
 
-export default function Menuitem(title, address, icon) {
+export default function Menuitem({title, address, Icon}) {
   return (
     <div>
-
         
-      MenuItem
+        <Link href={address}>
+            <Icon /> 
+            <p>{title}</p>
+        </Link>
     </div>
   )
-}
+};
