@@ -5,7 +5,7 @@ import {BsFillInfoCircleFill} from 'react-icons/bs';
 import Link from 'next/link';
 
 import Testimonials from './Testimonials'; 
-
+import Testimonial from './Testimonial'; 
 
 
 
@@ -17,7 +17,7 @@ export default function Header() {
             <Menuitem title="About" address="/about" Icon={BsFillInfoCircleFill}/>
         </div>
 
-        <Testimonials /> 
+        <Testimonial name="Annie B" quote="lalallalalla" img="/claire/AB.jpeg" /> 
 
        
         
