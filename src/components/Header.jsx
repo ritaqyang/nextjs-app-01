@@ -17,7 +17,7 @@ export default function Header() {
             <Menuitem title="About" address="/about" Icon={BsFillInfoCircleFill}/>
         </div>
 
-        <Testimonial name="Annie B" quote="lalallalalla" img="/claire/AB.jpeg" /> 
+      <Testimonials /> 
 
        
         
