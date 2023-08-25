@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export default function Testimonials() {
 
@@ -16,7 +16,7 @@ export default function Testimonials() {
                {/* Testimonial 1 */}
                 <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3">
 
-                    <img src="../claire/AB.jpeg" alt="" class="w-16 -mt-14"/>
+                    <img src="/claire/AB.jpeg" alt="" class="w-16 -mt-14"/>
                     <h5 class="text-lg font-bold">
                     Annie Burford
                     </h5>
@@ -27,19 +27,19 @@ export default function Testimonials() {
 
                 <div class="hidden flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3">
 
-                    <img src="testimonials/natasha.png" alt="" class="w-16 -mt-14"/>
+                    <img src="/claire/dog.png" alt="" class="w-16 -mt-14"/>
                     <h5 class="text-lg font-bold">
                     Natalie Serra
                     </h5>
                     <p class="text-sm text-darkGrayishBlue">
-                    “Claire is awesome! We went on vacation for 10 days and Claire stayed at our house. She took care of our sweet but sometimes anxious dog, two birds, gecko and koi fish. We totally trusted her upon our first meeting and everything went perfectly. She sent us updates and photos of our little dog :) We will definitely have Claire stay at our house again and again and are so happy that we found her!”
+                    “Claire is awesome! We went on vacation for 10 days and Claire stayed at our house. She took care of our sweet but sometimes anxious dog, two birds, gecko and koi fish. We totally trusted her upon our first meeting and everything went perfectly. She sent us updates and photos of our little dog. We will definitely have Claire stay at our house again and again and are so happy that we found her!”
 
                     </p>
                 </div>
 
                 <div class="hidden flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3">
 
-                    <img src="testimonials/grant.png" alt="" class="w-16 -mt-14"/>
+                    <img src="/claire/AL.jpeg" alt="" class="w-16 -mt-14"/>
                     <h5 class="text-lg font-bold">
                     Annie Lazebnik
 
@@ -53,7 +53,7 @@ export default function Testimonials() {
 
     </section>
     </div>
-     )
+     );
   }; 
 
           
