@@ -16,7 +16,7 @@ export default function Testimonials() {
   ];
 
   return (
-    <div>
+    <div className="sm:grid lg:grid-cols-2 mx-auto p-6">
       {testimonials.map((person) => (
         <div>
           
